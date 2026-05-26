@@ -2,17 +2,17 @@ import streamlit as st
 import joblib
 
 # Title of the application
-st.title("Cep Telefonu Tahmin Uygulaması")
+st.title("Mobile Phone Prediction App")
 
 # Header
-st.header("Cep Telefonunuzun fiyatını tahmin edin.")
+st.header("Estimate the price of your mobile phone.")
 
 # Subheader
-st.subheader("Bu uygulamayı kullanarak cep telefonunuzun değerini öğrenebilirsiniz.")
+st.subheader("You can use this app to find out the value of your mobile phone.")
 
-st.image("cep telefonu.jpg", caption="Cep Telefonu", width=400)
+st.image("mobile phone.jpg", caption="", width=400)
 
-st.write("İlgilendiğiniz cep telefonunun tahmini piyasada değerini aşağıda görebilirsiniz.")
+st.write("Below you can see the estimated market value of the mobile phone you are interested in..")
 
 top_7_feature_names = joblib.load("top_7_feature_names.joblib")
 
@@ -21,7 +21,7 @@ import streamlit as st
 import pandas as pd
 
 # Başlık
-st.header('Telefon Detaylarını Girin')
+st.header('Enter your phone details.')
 
 # Marka seçimi
 brand = st.selectbox('Marka', ['Samsung', 'Apple', 'Huawei', 'Xiaomi', 'Oppo'])
