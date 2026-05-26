@@ -4,6 +4,9 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Machine_Learning-Scikit_Learn-F7931E?logo=scikit-learn&logoColor=white)
 
+![App Mockup](https://files.catbox.moe/ad92q5.png)
+
+
 This project is an end-to-end Data Science application that predicts mobile phone market prices based on technical specifications (RAM, Storage, Battery, etc.) using Machine Learning algorithms and serves the model via a dynamic Streamlit web application.
 
 ## Overview
